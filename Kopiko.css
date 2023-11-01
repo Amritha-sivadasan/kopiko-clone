@@ -1,0 +1,188 @@
+@font-face {
+    font-family:amritha ;
+    src: url(./HelveticaNeue-Thin.ttf);
+}
+
+body{
+    width: 100%;
+    height: 500px;
+   overflow-x: hidden;
+    margin: 0;
+    font-family: amritha;
+}.header{
+ width: 100%;
+ height: 75px;
+ background:black;
+
+ 
+}.menu{
+    float: right;
+    width: 60%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   text-align: end;
+   cursor: pointer;
+font-size: 18px;
+ font-weight: bold;
+font-family: amritha;
+  
+   
+}.home{
+    color: red;
+}
+.Product{
+    transition: all ease 0.5s;
+}
+.contest{
+    transition: all ease 0.5s;
+}.mykopiko{
+    transition: all ease 0.5s;
+}
+.Product:hover{
+    color: red;
+   scale: 1.2;
+    
+}
+.mykopiko:hover{
+    color: red;
+    scale: 1.2;
+}.contest:hover{
+    color: red;
+    scale: 1.2;
+}
+
+.kopiko{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    padding-left: 100px;
+   
+}
+
+.f-body{
+    width: 100%;
+    height: 490px;
+}
+.image{
+    width: 100%;
+    height: 490px;
+}.s-body{
+    width: 100%;
+    height: 400px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+.s1{
+    width: 48%;
+    height: 400px;
+    
+    
+}
+#im1{
+width: 50%;
+height: 193px;
+  padding-left: 250px;
+  padding-top: 130px;
+
+}
+.img2{
+    width: 100%;
+    height: 655px;
+}
+.img3{
+    width: 100%;
+    height: 610px;
+}
+.last-body{
+    width: 100%;
+    height:666px ;
+     background-image: url("https://kopiko.com.my/sites/default/files/images/coffee%20bean%20background.jpg") ; 
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.footer{
+    
+    background: black;
+    height:100px ;
+    width: 100%;
+    padding: 1px;
+    
+}.t-body{
+    
+    width: 100%;
+    height: 655px;
+    background-image: url("https://kopiko.com.my/sites/default/files/images/Pack1Table_adjusted.jpg");
+    background-size: cover;
+}.last-para{
+    padding: 50px;
+    color:rgb(255, 255, 255);
+   
+}
+.s2{
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 45%;
+    height: 400px;
+    
+}
+.para1{
+    
+    color: azure;
+    position: relative;
+    
+     word-spacing: 2px;
+      font-weight: bold;
+
+}.para2{
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    font-family: amritha;
+    line-height: 25px;
+    font-weight: 100px;
+    word-spacing: 2px;
+}
+.new{
+width: 100%;
+height: 100px;
+  color: red;
+  font-size: 100px;
+ 
+  padding-right: 490px; 
+  
+  
+  font-weight: bold;
+
+}.right-align{
+    margin-top: 80px;       
+    width: 48%;
+    height: 500px;
+    padding-right: 70px;
+    float: right;
+    
+}.new-text{
+    font-size: 20px;
+    font-family: amritha;
+    font-weight: 600;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.text-align-center{
+    width: 45%;
+    height: 400px;
+   color: aliceblue;
+  padding-top: 90px;
+  
+  word-spacing:2px ;
+
+   
+} 
+.last-body-text{
+    font-family: amritha;
+    font-size: 20px;
+}
